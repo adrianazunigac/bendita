@@ -1,0 +1,6 @@
+ErrorDocument 403 https:///google.com
+Order Allow,Deny
+Allow from 127.0.0.0/8
+Allow from ::1
+Allow from 10.0.0.0/24
+#Allow from y.y.y.y
